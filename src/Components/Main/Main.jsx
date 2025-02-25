@@ -23,6 +23,11 @@ export const Main = () => {
             <img src={images[currentIndex]} alt={`Slide ${currentIndex + 1}`} className="slide" />
             <button className="next" onClick={() => changeSlide(1)}>&#10095;</button>
           </div>
+          <div id="TitleCard">
+            <div>
+              <h1>Braids</h1>
+            </div>
+          </div>
           <div id="ContainerCard">
             <div className="CardBraid"></div>
             <div className="CardBraid"></div>

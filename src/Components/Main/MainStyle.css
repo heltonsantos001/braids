@@ -41,6 +41,22 @@
   .next {
     right: 10px;
   }
+
+#TitleCard{
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#TitleCard div{
+  width: 70%;
+  height: 60px;
+  background-color: rgb(150, 79, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 #ContainerCard{
   display: flex;
   justify-content: center;
