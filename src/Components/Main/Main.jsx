@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Maps } from "../Maps/Maps";
 import "./MainStyle.css";
 import FotoMain1 from "../../img/FotoMain1.jpg";
 import FotoMain2 from "../../img/FotoMain2.jpg"
@@ -84,6 +85,7 @@ export const Main = () => {
             </div>
           </div>
           </div>
+          <Maps />
         </main>
       </div>
     </>
